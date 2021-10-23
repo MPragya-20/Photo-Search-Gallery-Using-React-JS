@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Photo-Search-Gallery-Using-React-JS/static/css/main.fc85698b.chunk.css",
+    "main.js": "/Photo-Search-Gallery-Using-React-JS/static/js/main.93eb4d3e.chunk.js",
+    "main.js.map": "/Photo-Search-Gallery-Using-React-JS/static/js/main.93eb4d3e.chunk.js.map",
+    "runtime-main.js": "/Photo-Search-Gallery-Using-React-JS/static/js/runtime-main.62e91040.js",
+    "runtime-main.js.map": "/Photo-Search-Gallery-Using-React-JS/static/js/runtime-main.62e91040.js.map",
+    "static/js/2.5bc8f60a.chunk.js": "/Photo-Search-Gallery-Using-React-JS/static/js/2.5bc8f60a.chunk.js",
+    "static/js/2.5bc8f60a.chunk.js.map": "/Photo-Search-Gallery-Using-React-JS/static/js/2.5bc8f60a.chunk.js.map",
+    "index.html": "/Photo-Search-Gallery-Using-React-JS/index.html",
+    "static/css/main.fc85698b.chunk.css.map": "/Photo-Search-Gallery-Using-React-JS/static/css/main.fc85698b.chunk.css.map",
+    "static/js/2.5bc8f60a.chunk.js.LICENSE.txt": "/Photo-Search-Gallery-Using-React-JS/static/js/2.5bc8f60a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62e91040.js",
+    "static/js/2.5bc8f60a.chunk.js",
+    "static/css/main.fc85698b.chunk.css",
+    "static/js/main.93eb4d3e.chunk.js"
+  ]
+}
