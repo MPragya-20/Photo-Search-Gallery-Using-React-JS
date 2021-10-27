@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+body{
+  background-image:linear-gradient(rgb(52, 52, 104), rgb(199, 45, 140));
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.searchInput{
+  border: 1px solid #dadada;
+  box-shadow:3px 3px 4px 3px #8a8989;
+  border-radius: 30px;
+  width: 400px;
+  padding: 15px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchInput:focus{
+  outline: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn{
+  border-radius: 20px!important;
+  padding: 10px!important;
+  box-shadow:3px 3px 3px 3px #ffffff;
+  background-color: rgb(43, 159, 226);
+  border: none;
+}
+.btn:hover, .btn:active, .btn:focus{
+  background-color: rgb(43, 119, 206)!important;
+  border: none;
+  box-shadow:3px 3px 3px 3px #ffffff;
+}
+.title{
+  font-family: fantasy;
+}
+.creator{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title-input{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.gallery{
+  column-count: 2;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.each-photo{
+  margin: 20px;
+  
+}
+img{
+  width:450px;
+  height:auto;
+  border-radius: 10%!important;
+  box-shadow: 3px 3px 4px black;
+}
+@media only screen and (max-width:800px){
+  img{
+    width: 150px !important;
+    height:auto;
   }
 }
